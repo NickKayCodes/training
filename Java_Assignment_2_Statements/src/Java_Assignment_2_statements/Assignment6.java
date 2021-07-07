@@ -1,0 +1,18 @@
+package Java_Assignment_2_statements;
+
+public class Assignment6 {
+	public static void main(String[] args) {
+		float x = (float)12.1231;
+		
+		if(x==3) {
+			System.out.println("x is equal to 3");
+		}else if(x>5) {
+			System.out.println("x is greater than 5");
+		}else if(x<=0) {
+			System.out.println("x is less than or equal to 0");
+		}else {
+			System.out.println("x is none of the other options");
+		}
+	}
+}
+	
